@@ -1,5 +1,5 @@
 def roll_call_dwarves(dwarves)
-  counter = 0 
+  counter = 1  
   dwarves.each do |dwarf|
     puts  "#{counter}. #{dwarf}"
     counter += 1 
